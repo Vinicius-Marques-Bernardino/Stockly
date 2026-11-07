@@ -1,0 +1,149 @@
+
+/* =========================
+   ESTILOS GERAIS
+   ========================= */
+
+body {
+    background-color: #f3f6f4;
+}
+
+.navbar {
+    background-color: #173d32;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card-header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Cabeçalho do formulário de cadastro */
+.card-header-cadastro {
+    background-color: white;
+}
+
+/* Cabeçalho da tabela de consulta */
+.card-header-consulta {
+    background-color: #173d32;
+    color: white;
+}
+
+
+/* =========================
+   BOTÕES
+   ========================= */
+
+/* Botão cadastrar */
+.btn-cadastrar {
+    background-color: #23744d;
+    color: white;
+    border-color: #23744d;
+}
+
+.btn-cadastrar:hover {
+    background-color: #195b3b;
+    border-color: #195b3b;
+    color: white;
+}
+
+/* Botão voltar ao menu */
+.btn-voltar {
+    background-color: #23744d;
+    color: white;
+    border-color: #23744d;
+}
+
+.btn-voltar:hover {
+    background-color: #195b3b;
+    border-color: #195b3b;
+    color: white;
+}
+
+/* Botão editar */
+.btn-editar {
+    color: #23744d;
+    border: 1px solid #23744d;
+}
+
+.btn-editar:hover {
+    background-color: #23744d;
+    color: white;
+}
+
+/* Padronização dos botões Editar e Excluir */
+.btn-editar,
+.btn-outline-danger {
+    min-height: 31px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 10px;
+}
+
+
+/* =========================
+   TABELA DE PRODUTOS
+   ========================= */
+
+.table thead th {
+    background-color: #26332d;
+    color: white;
+}
+
+
+/* =========================
+   LINKS DO MENU
+   ========================= */
+
+.menu-link {
+    display: block;
+    text-decoration: none;
+    color: #173d32;
+    background-color: white;
+    border: 1px solid #e1e8e2;
+    border-radius: 8px;
+    padding: 16px;
+    transition: 0.2s;
+}
+
+.menu-link:hover {
+    background-color: #edf5ef;
+    border-color: #23744d;
+    color: #23744d;
+}
+
+
+/* =========================
+   PESQUISA DE PRODUTOS
+   ========================= */
+
+.btn-pesquisar {
+    background-color: #23744d;
+    color: white;
+    border-color: #23744d;
+}
+
+.btn-pesquisar:hover {
+    background-color: #195b3b;
+    border-color: #195b3b;
+    color: white;
+}
+
+/* Cabeçalho da tabela de resultados da pesquisa */
+.tabela-pesquisa thead th {
+    background-color: #26332d;
+    color: white;
+}
+
+
+/* =========================
+   EDIÇÃO DE PRODUTOS
+   ========================= */
+
+.card-header-edicao {
+    background-color: white;
+    border-bottom: 1px solid #e5e5e5;
+}
